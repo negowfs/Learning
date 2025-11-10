@@ -6,5 +6,4 @@ class ApplicationController < ActionController::Base
   stale_when_importmap_changes
 
   include ActiveStorage::SetCurrent
-
 end
